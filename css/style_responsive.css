@@ -108,13 +108,13 @@
 	header .navbar { height: auto; background-color: transparent; box-shadow: none; }
 	header .navbar .container { padding: 0px; }
 	header .navbar .navbar-header {
-		height: auto;
+		height: 76px;
 		position: absolute;
 		top: 0px;
 		right: 15px;
 		width: 100%;
 		text-align: center;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+		background: #30355d;
 	}
 	header .navbar-brand { 
 		width: 70px;
@@ -123,11 +123,8 @@
 		padding: 5px 0px 0px 5px;
 	}
 	header .navbar-brand img { max-width: 100%; }
-	.navbar-header .brandName { 
-		display: none;
-	}
 	header .navbar-nav {
-		margin: 60px -15px 0px; 
+		margin: 75px -15px 0px; 
 		width: 250px; 
 		background: url(../images/footer_bg_icons.png) #30355d;
 		height: calc(100vh - 10vh);
@@ -159,6 +156,7 @@
 		width: 200px;
 		margin: 0px auto !important;
 	}
+	.heroBanner .ex2 span:nth-child(8) { display: block !important; }
 	.owl-nav button:before { font-size: 25px !important; }
 	.heroBanner .jumbotron p { width: 90%; font-size: 14px; }
 	.aboutUs { padding: 0px; }
